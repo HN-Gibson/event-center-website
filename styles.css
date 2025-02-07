@@ -8,8 +8,152 @@
   }
 
 :root {
-    --main-color:#000000;
+    --main-color:#383838;
     --secondary-color:#d3d3d3;
     --accent-color: #d6a553;
-    --shadow-color: #525252;
+    --shadow-color: #00000080;
+}
+
+html, body {
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--secondary-color);
+    background-color: var(--main-color);
+}
+
+header {
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+.site-header {
+    background-color: var(--main-color);
+    display: flex;
+    flex: 100%;
+    position: sticky;
+    z-index: 1;
+    top: 0%;
+    padding: 0%;
+    left: 0%;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5%;
+}
+
+.logo img {
+    border-radius: 50%;
+    padding: 5%;
+}
+
+.navbar {
+    display:flex;
+    width: 100%;
+}
+
+.option {
+    background-color: var(--secondary-color);
+    padding: 1%;
+    margin: 1%;
+    border: 4px solid black;
+    border-radius: 10% / 50%;
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+.option:hover {
+    background-color: var(--accent-color);
+}
+
+.about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Images/dinner.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+.title, .article{ 
+    text-align: center;
+    padding: 5%;
+    color: var(--secondary-color);
+    text-shadow: 0 4px 8px var(--shadow-color);
+    background-color: var(--shadow-color);
+}
+
+.article a, .featured a {
+    color: var(--secondary-color);
+}
+
+section img {
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+section article {
+    text-align: center;
+    padding: 10%;
+}
+
+section article a {
+    color: var(--secondary-color);
+}
+
+.menu {
+    padding: 5%;
+    color: black;
+    background-color: var(--accent-color);
+}
+
+table, th, td {
+    border: 2px solid var(--shadow-color);
+}
+
+.fries:hover {
+    content: url(/Images/fries.jpg);
+    width: 30%;
+    border-radius: 10%;
+    display: block;
+    position: absolute;
+}
+
+.caprese:hover {
+    content: url(/Images/Caprese.jpg);
+    width: 30%;
+    border-radius: 10%;
+    display: block;
+    position: absolute;
+}
+
+.burger:hover {
+    content: url(/Images/burger.jpg);
+    width: 30%;
+    border-radius: 10%;
+    display: block;
+    position: absolute;
+}
+
+.tenderloin:hover {
+    content: url(/Images/Tenderloin.jpg);
+    width: 30%;
+    border-radius: 10%;
+    display: block;
+    position: absolute;
+}
+
+.sundae:hover {
+    content: url(/Images/Sundae.jpg);
+    width: 30%;
+    border-radius: 10%;
+    display: block;
+    position: absolute;
+}
+
+.cheesecake:hover {
+    content: url(/Images/Caramel-cheesecake.jpg);
+    width: 30%;
+    border-radius: 10%;
+    display: block;
+    position: absolute;
 }

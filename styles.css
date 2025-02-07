@@ -112,7 +112,7 @@ table, th, td {
 
 .fries:hover {
     content: url(/Images/fries.jpg);
-    width: 30%;
+    width: 50%;
     border-radius: 10%;
     display: block;
     position: absolute;
@@ -120,7 +120,7 @@ table, th, td {
 
 .caprese:hover {
     content: url(/Images/Caprese.jpg);
-    width: 30%;
+    width: 50%;
     border-radius: 10%;
     display: block;
     position: absolute;
@@ -128,7 +128,7 @@ table, th, td {
 
 .burger:hover {
     content: url(/Images/burger.jpg);
-    width: 30%;
+    width: 50%;
     border-radius: 10%;
     display: block;
     position: absolute;
@@ -136,7 +136,7 @@ table, th, td {
 
 .tenderloin:hover {
     content: url(/Images/Tenderloin.jpg);
-    width: 30%;
+    width: 50%;
     border-radius: 10%;
     display: block;
     position: absolute;
@@ -144,7 +144,7 @@ table, th, td {
 
 .sundae:hover {
     content: url(/Images/Sundae.jpg);
-    width: 30%;
+    width: 50%;
     border-radius: 10%;
     display: block;
     position: absolute;
@@ -152,8 +152,21 @@ table, th, td {
 
 .cheesecake:hover {
     content: url(/Images/Caramel-cheesecake.jpg);
-    width: 30%;
+    width: 50%;
     border-radius: 10%;
     display: block;
     position: absolute;
+}
+
+.location {
+    padding: 5%;
+    color: black;
+    background-color: var(--accent-color);
+    text-align: center;
+}
+
+.contact {
+    color: black;
+    background-color: var(--accent-color);
+    padding: 5%;
 }

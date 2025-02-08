@@ -8,11 +8,11 @@ The goal is to showcase my abilities with HTML/CSS to create a functioning websi
 
 ## The Website:
 
-- [Home Page] ('index.html') w/ welcome and more about the event center.
-- [Events Page] ('events.html') highlighting 3 upcoming events.
-- [Menu Page] ('menu.html') displays information related to food offerings w/ images available on hover or select of item name.
-- [Location Page] ('location.html') offers information about where to find the center as well as hours of operation.
-- [Contact Us Page] ('contact_us.html') provides a form for users to submit a message to the staff for follow-up.
+- **Home Page** ('index.html') w/ welcome and more about the event center.
+- **Events Page** ('events.html') highlighting 3 upcoming events.
+- **Menu Page** ('menu.html') displays information related to food offerings w/ images available on hover or select of item name.
+- **Location Page** ('location.html') offers information about where to find the center as well as hours of operation.
+- **Contact Us Page** ('contact_us.html') provides a form for users to submit a message to the staff for follow-up.
 
 - All features are scaled to the size of the device and should display on any device correctly.
 

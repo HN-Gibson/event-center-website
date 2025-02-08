@@ -20,9 +20,7 @@ The goal is to showcase my abilities with HTML/CSS to create a functioning websi
 
 1. Clone the repository to select directory of your choice:
 
-    '''bash
     git clone https://github.com/HN-Gibson/event-center-website.git
-    '''
 
 2. Open project in preferred code editor.
 

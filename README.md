@@ -16,6 +16,8 @@ The goal is to showcase my abilities with HTML/CSS to create a functioning websi
 
 - All features are scaled to the size of the device and should display on any device correctly.
 
+- All styling is done in the 'styles.css' file and images are found in the 'Images' folder.
+
 ## How to Use:
 
 1. Clone the repository to select directory of your choice:

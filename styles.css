@@ -170,3 +170,11 @@ table, th, td {
     background-color: var(--accent-color);
     padding: 5%;
 }
+
+input:valid {
+    border: 2px solid green;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
